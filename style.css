@@ -1,6 +1,6 @@
 body {
     color: black;
-    background-color: rgb(221, 221, 238);
+    background-color: rgb(252, 229, 240);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
@@ -23,7 +23,7 @@ header img {
     width: 150px;
     height: 150px;
     border-radius: 10%;
-    border: 3px solid rgb(138, 81, 204);
+    border: 3px solid rgb(206, 48, 145);
 }
 
 .center {
@@ -32,7 +32,7 @@ header img {
 }
 
 h1 {
-    color: rgb(138, 81, 204);
+    color: rgb(206, 48, 145);
 }
 
 footer img {
@@ -55,29 +55,45 @@ footer p {
 }
 
 .container {
-    padding: 0px 100px;
+    padding: 0px 70px;
 }
 
 nav a:hover {
-    color:rgb(138, 81, 204);
+    color:rgb(206, 48, 145);
 }
 
 input{
     width: 100%;
     padding: 8px 0px;
     margin: 8px 0px;
+    border-radius: 3px;
 }
 
 input[type=text] {
     height: 100px;
+    border-radius: 3px;
+  
 }
 
 button {
-    background-color:rgb(222, 204, 243) ;
+    background-color: rgb(236, 173, 223);
+    border-radius: 3px;
     border: 1px solid;
     width: 100px;
     height: 30px;
+    cursor: pointer
 }
 
 
+section img {
+    width: 350px;
+    height: 250px;
+    border-radius: 0%;
+    border: 3px solid black;
 
+}
+
+.obrigada {
+    text-align: center;
+
+}
